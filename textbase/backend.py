@@ -91,8 +91,6 @@ async def chat(messages: List[Message], state: dict = None):
 
     module = get_module_from_file_path(file_path)
 
-    # print("here", state)
-    # print(messages)
 
     # Call the on_message function from the dynamically loaded module
     
